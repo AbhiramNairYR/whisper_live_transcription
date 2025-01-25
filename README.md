@@ -26,7 +26,7 @@ To run the pyton file run:
 ```bash
 python transcribe_demo.py --device_index 9
 ```
-**Note**: if --device_index 9 dosent work try from 0 to 10
+**Note**: if --device_index 9 des not work try from 0 to 10
 
 
 ## Other arguments
