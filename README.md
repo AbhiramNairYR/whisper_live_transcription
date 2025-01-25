@@ -29,36 +29,43 @@ if --device_index 9 dosent work try from 0 to 10
 other arguments:
 Model to use:
 >--model  
->default="medium" 
->choices=["tiny", "base", "small", "medium", "large"])
+
+default="medium" 
+choices=["tiny", "base", "small", "medium", "large"])
 
 Don't use the english model:
->--non_english"
->action='store_true',
+>--non_english
+>action='store_true'
 
 Energy level for mic to detect:
 >--energy_threshold
->default=1000,
+
+default=1000
 
 How real time the recording is in seconds
 >--record_timeout
->default=30,
+
+default=30
 
 How much empty space between recordings before we consider it a new line in the transcription:
 >--phrase_timeout
->default=0.5,
+
+default=0.5
 
 Specific device index for microphone:
 >--device_index
->default=None,
+
+default=None
 
 Path to mock audio file for testing:
 >--mock_audio
->default=None,
+
+default=None
 
 List all available microphone devices
 >--list-devices
->action="store_true",
+
+action="store_true"
 
 
 For more information on Whisper please see https://github.com/openai/whisper
