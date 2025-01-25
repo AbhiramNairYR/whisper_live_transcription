@@ -22,7 +22,7 @@ docker run -it --rm -v /home/abhiram/code/python/live/whisper_real_time:/workspa
 ```
 
 
-To run the pyton file run:
+To run the python file:
 ```bash
 python transcribe_demo.py --device_index 9
 ```
