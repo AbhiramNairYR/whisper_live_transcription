@@ -36,27 +36,27 @@ choices=["tiny", "base", "small", "medium", "large"])
 --non_english"
 action='store_true',
 
-Energy level for mic to detect:
+>Energy level for mic to detect:
 --energy_threshold
 default=1000,
 
-How real time the recording is in seconds
+>How real time the recording is in seconds
 --record_timeout
 default=30,
 
-How much empty space between recordings before we consider it a new line in the transcription:
+>How much empty space between recordings before we consider it a new line in the transcription:
 --phrase_timeout
 default=0.5,
 
-Specific device index for microphone:
+>Specific device index for microphone:
 --device_index
 default=None,
 
-Path to mock audio file for testing:
+>Path to mock audio file for testing:
 --mock_audio
 default=None,
 
-List all available microphone devices
+>List all available microphone devices
 --list-devices
 action="store_true",
 
